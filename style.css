@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Ubuntu;
+}
+
+
+
+/* Nav Style*/
+nav {
+    padding: 10px;
+    display: flex;
+    font-family: "Open Sans";
+    border-bottom: 5px solid #9bdd7c;;
+}
+
+nav ul{
+    list-style-type: none;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+nav img{
+    display: flex;
+    margin-left: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    color: #4c6fb5;
+}
+
+nav ul li a:hover{
+    color: #4a82ad;
+    transition: ease-in-out 0.2s;
+    background-color: #f0f0f0;
+    box-shadow: 0px 3px #519efc;
+}
+
+nav ul li a:active{
+    background-color: #c7d1e5;
+}
+
+
+/* Section style */
+
+.hero {
+    background-image: url(images/Artic-Fox.png);
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    padding: 10px;
+    border-bottom: 5px solid #9bdd7c;
+    width: 100%;
+    color: #ffffff;
+    text-shadow: 0 0 30px  #2f2f2f;
+}
+
+.hero h1, .hero h2 {
+
+    text-align: center;
+}
+
+.hero h1{
+
+    margin: 100px 40px 40px 40px;
+    font-size: 64px;
+}
+
+.hero h2{
+    font-size: 48px;
+}
+
+.hero .donate{
+    color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    margin: auto;
+    background-color: #507cd2;
+    border: none;
+    font-size: 20px;
+}
+
+.hero .donate:hover{
+    background-color: #8389ce;
+    transition: ease-in-out 0.2s;
+    box-shadow: 0px 0px 0px 5px #81839b39
+}
+
+.hero .donate:active{
+    background-color: #2e5dbd;
+}
+
+/* About styles */
+
+.about-us{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.abouttext{
+    width: 50%;
+}
+
+.abouttext .about-body{
+    margin-top: 13px;
+    font-family: "Open Sans";
+}
+
+.about-image{
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+}
+
+/* contribute style */
+
+#contribute{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: 50px auto;
+    gap: 15px;
+    height: 300px;
+}
+
+.contribox{
+    background-color: #4c6fb5;
+    padding: 30px;
+    color: #ebf1ff;
+    font-family: "Open Sans";
+    position: relative;
+    border-bottom: 8px solid #d4f2ad;;
+}
+
+.boxbody{
+    margin-top: 13px;
+
+}
+
+.learn-more{
+    position: absolute;
+    padding: 10px;
+    bottom: 30px;
+    right: 35px;
+    background-color: #a6b4f341;
+    color: #d1effe;
+    border: none;
+}
+
+.learn-more:hover{
+    background-color: #6797c6;
+    transition: ease-in-out 0.2s;
+}
+
+.learn-more:active{
+    background-color: #b1bdf0b0;
+    transition: ease-in-out 0.2s;
+}
+
+/* mission style */
+
+.mission{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.missiontext{
+    width: 50%;
+}
+
+
+.missiontextbody{
+    margin-top: 13px;
+    font-family: "Open Sans";
+}
+
+.missionimage{
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    gap: 20px;
+}
+
+                                                                /* ANIMAL HELP */
+
+/* Animal Help Main Style */
+
+main h1{
+
+    text-align: center;
+    background-color: #4c6fb5;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.animal_help_title{
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+
+.animal_help_container{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    font-family: "Open Sans";
+    gap: 25px;
+}
+
+.animal_help_description{
+    width: 68%;
+    font-size: 18px;
+}
+
+.animal_help_description a:link, .animal_help_description a:visited{
+    color: #4c6fb5;
+}
+
+.animal_help_description a:hover, .animal_help_description a:active{
+    color: #6797c6;
+    transition: ease-in-out 0.2s;
+}
+
+.animal_help_description b{
+    font-weight: 600;
+}
+
+.animal_help_container{
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    font-family: "Open Sans";
+}
+
+.animal_help_img img{
+    border: 4px solid #4c6fb5;
+}
+
+
+
+                                                                /* Our Residents style */
+/* section style */
+.note{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.resident{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    font-family: "Open Sans";
+    gap: 40px;
+}
+
+.animal-title{
+    background-color: #4c6fb5;
+    padding: 20px;
+    color: white;
+    border-bottom: 5px solid #9bdd7c;
+}
+
+.animal-story p{
+    font-size: 18px;
+}
+
+.animal-story-img img{
+    border: 9px solid #4c6fb5;
+}
+
+hr{
+    width: 60%;
+    margin: auto;
+    opacity: 40%;
+}
+
+
+.fox-name{
+    font-size: 29px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.text2{
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.text3{
+    font-size: 17px;
+}
+
+.animal-name-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.other-foxes{
+    width: 80%;
+    margin: 60px auto;
+    background-color: #4c6fb5;
+    padding: 10px;
+    border-bottom: 5px solid #9bdd7c;
+}
+
+.other-foxes h2{
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+    font-weight: 450;
+    color: white;
+}
+
+.other-foxes-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+}
+
+.animal-name{
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: white;
+}
+
+                                                                          /*Sponsor an Animal*/
+/* Sponsor an Animal style*/
+
+/* Main style */
+
+.sponsor-container{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    font-family: "Open Sans";
+    gap: 40px;
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+}
+
+.sponsor-desc{
+    width: 80%;
+    margin: 50px auto;
+    font-family: "Open Sans";
+    gap: 40px;
+    font-size: 18px;
+}
+
+.list{
+    margin: 10px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.list li{
+    margin: 20px 0;
+}
+
+.sponsor-payment-container{
+    width: 80%;
+    margin: 90px auto;
+    display: flex;
+    font-family: "Open Sans";
+    gap: 40px;
+    background-color: #4c6fb5;
+    padding: 50px 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.sponsor-payment-img{
+    display: flex;
+    justify-content: end;
+    flex: auto;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.send-item{
+    font-family: "Open Sans";
+    width: 70%;
+    margin: 90px auto;
+    font-size: 18px;
+}
+
+.address{
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.sponsor-status{
+    font-family: "Open Sans";
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.sponsor-status h2{
+    margin: 20px 0;
+}
+
+/* form style */
+
+form{
+    margin: 60px auto;
+    padding: 40px;
+    font-family: "Open Sans";
+    background-color: #4c6fb5;
+    width: 50%;
+    height: 1100px;
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px #454242;
+}
+
+input{
+    margin: 13px 0;
+    width: 100%;
+    height: 50px;
+    text-indent: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: rgb(142, 142, 142);
+    background-color: #f7f8fdee;
+}
+
+input:focus {
+  background-color: rgb(233, 249, 255);
+  transition: 0.2s;
+  outline: solid;
+  outline-color: #9bdd7c;
+}
+
+select:focus{
+  background-color: rgb(233, 249, 255);
+  transition: 0.2s;
+  outline: solid;
+  outline-color: #9bdd7c;
+}
+
+select{
+    margin: 13px 0;
+    width: 100%;
+    height: 50px;
+    text-indent: 20px;
+    border-radius: 20px;
+    background-color: #f7f8fdee;
+    color: rgb(0, 0, 0);
+}
+
+label{
+    display: block;
+    margin: 30px 0;
+    color: white;
+    text-decoration: underline;
+}
+
+textarea{
+    margin-top: 20px;
+    padding: 20px;
+    text-indent: 20px;
+    width: 100%;
+    resize: none;
+    border-radius: 20px;
+    background-color: #f7f8fdee;
+}
+
+textarea:focus{
+  background-color: rgb(233, 249, 255);
+  transition: 0.2s;
+  outline: solid;
+  outline-color: #9bdd7c;
+}
+
+
+input[type=checkbox]{
+    width: 30px;
+    height: 30px;
+    padding: 10px 0;
+    outline: none;
+    background-color: #f7f8fdee;
+}
+
+input[type=submit]{
+    width: 200px;
+    text-indent: 0;
+    display: block;
+    margin-left: auto;
+}
+
+
+
+
+/* footer style */
+
+footer{
+    background-color: #4c6fb5;
+    padding: 30px;
+}
+
+.mail ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.mail{
+    font-family: "Open Sans";
+    color: #e9ecff;
+}
+
+.socials{
+    color: #f5f9ff;
+}
+
+.socialimg{
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.container-social{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-self: center;
+}
