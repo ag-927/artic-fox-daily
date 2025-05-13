@@ -325,6 +325,9 @@ hr{
     gap: 10px;
     justify-content: space-between;
     margin: 30px 0;
+}
+
+.animal-name-container p{
     color: black;
 }
 
